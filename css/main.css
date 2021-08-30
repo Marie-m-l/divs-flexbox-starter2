@@ -4,7 +4,7 @@
 
 body{
     font-size: 16px;
-    background: rgb(240, 162, 95);
+    background: #c2cde0;
 }
 
 /***** GRID *****/
@@ -12,9 +12,7 @@ body{
 
 /***** HEADER *****/
 
-h1{
-    background: rgb(107, 81, 81);
-    border: .1em solid black;
+h1{ 
     font: bold 2em;
     margin: auto;
     padding: auto;
@@ -22,6 +20,12 @@ h1{
 }
 
 h2{
+
+}
+
+/***** FOOTER *****/
+
+ul{
 
 }
 
