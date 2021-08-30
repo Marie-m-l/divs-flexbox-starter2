@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/***** BASE STYLES *****/
+
+body{
+    font-size: 16px;
+    background: rgb(240, 162, 95);
+}
+
+/***** GRID *****/
+
+
+/***** HEADER *****/
+
+h1{
+    background: rgb(107, 81, 81);
+    border: .1em solid black;
+    font: bold 2em;
+    margin: auto;
+    padding: auto;
+
+}
+
+h2{
+
+}
+
+
+
+
+/***** BREAKPONTS FOR SCREENS *****/
+
+@media (min-width: 481px) and (max-width: 1024px) {
+}
+
+@media (min-width: 1025px) {
+}
