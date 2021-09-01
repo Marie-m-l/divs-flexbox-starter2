@@ -2,9 +2,20 @@
 
 /***** BASE STYLES *****/
 
+html {
+    background-color: #c2cde0;
+    font-size: 1em;
+    height: 100%;
+    width: 100%;
+}
+
 body{
+    color: #c2cde0;
+    display: flex;
     font-size: 16px;
-    background: #c2cde0;
+    height: 100%;
+    padding: 0 2em;
+    
 }
 
 /***** GRID *****/
@@ -12,10 +23,15 @@ body{
 
 /***** HEADER *****/
 
+header{
+    flex: 1 10 480px;
+}
+
 h1{ 
+    display: flex;
+    font-family: font-family: 'Roboto', sans-serif;
     font: bold 2em;
-    margin: auto;
-    padding: auto;
+    
 
 }
 
@@ -26,7 +42,8 @@ h2{
 /***** FOOTER *****/
 
 ul{
-
+    display: flex;
+    flex: 
 }
 
 
@@ -38,4 +55,11 @@ ul{
 }
 
 @media (min-width: 1025px) {
+}
+
+
+/***** PRINT *****/
+
+@media print{
+    background:none;
 }
