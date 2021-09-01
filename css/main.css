@@ -23,7 +23,7 @@ body{
 
 /***** HEADER *****/
 
-header{
+header.flex-container {
     flex: 1 10 480px;
 }
 
